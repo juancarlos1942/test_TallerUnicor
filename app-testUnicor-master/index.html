@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test Evaluativo</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/conexion.css">
+    <link rel="stylesheet" href="style/numero.css">
+    <link rel="stylesheet" href="style/formulario.css">
+    <link rel="stylesheet" href="style/table.css">
+</head>
+
+<body>
+
+
+    <ul class="nav">
+        <li> <a class="titulo">EVALUANDO TUS CONOCIENTOS</a> </li>
+        <li>
+            <a id="divNombre"></a>
+        </li>
+        <li id="preguntas">
+            <a class="titulo"><strong>Preguntas</strong></a>
+            <div id="container-preguntas">
+                <div id="1" class="numero1">1</div>
+                <div class="numero2">2</div>
+                <div class="numero3">3</div>
+                <div class="numero4">4</div>
+                <div class="numero5">5</div>
+                <div class="numero6">6</div>
+                <div class="numero7">7</div>
+                <div class="numero8">8</div>
+                <div class="numero9">9</div>
+                <div id="contestadas">Preguntas contestadas <span>0</span> </div>
+                <div id="myProgress">
+                    <div id="myBar"> <span>0%</span> </div>
+                </div>
+                <div id="identificador-Pregunta">
+                    <strong>Pregunta <span>1</span>/9</strong>
+                </div>
+                <div class="botones">
+                    <div>
+                        <div>
+                            <img class="imgB" src="img/flecha-anterior.png" alt="">
+                        </div>
+                        <div class="botonA">
+                            <button id="ant" class="boton"> Anterior</button>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div>
+                            <img class="imgS" src="img/vaya-a-la-pagina-siguiente-simbolo.png" alt="">
+                        </div>
+                        <div class="botonS">
+                            <button id="sig" class="boton">Siguiente</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </li>
+
+    </ul>
+
+    <div class="contenedor">
+        <ul>
+            <li style="background:white">
+                <div>
+                    <form id="conectar" method="POST" onsubmit="return false">
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre de Pila....">
+                        <input type="submit" value="Conectar">
+                    </form>
+                    <img id="conexcion" src="./img/img1.gif" alt="">
+                </div>
+
+            </li>
+            <!-- PREGUNTA 1 -->
+            <li style="background:white">
+                <div>
+                    <strong class="enunciado">Preguntas de seleccion Múltiple con unica respuesta</strong>
+                    <br><br>
+                    <div class="dformu">
+                        <strong style="font-size: 23px">¿Cuales son los tipos de datos String?</strong>
+                        <br><br> A. <input id="pregunta1" name="pregunta1" type="radio"> Numericos <br> B.
+                        <input id="pregunta1a" name="pregunta1" type="radio"> Booleands <br> C.
+                        <input id="pregunta1b" name="pregunta1" type="radio"> Alfanumericos <br> D.
+                        <input id="pregunta1c" name="pregunta1" type="radio"> Cadenas de texto
+
+
+                    </div>
+                </div>
+            </li>
+            <!-- PREGUNTA 2 -->
+            <li style="background:white">
+                <div>
+                    <strong class="enunciado">Preguntas de seleccion Múltiple con unica respuesta</strong>
+                    <br><br>
+                    <div id="uno" class="dformu">
+                        <strong style="font-size: 23px">¿Cuales son los tipos de datos Float?</strong>
+                        <br><br> A.
+
+                        <input id="pregunta2" name="pregunta2" type="radio"> Numericos <br> B.
+                        <input id="pregunta2a" name="pregunta2" type="radio"> Booleands <br> C.
+                        <input id="pregunta2b" name="pregunta2" type="radio"> Decimales <br> D.
+                        <input id="pregunta2c" name="pregunta2" type="radio"> Cadenas de texto
+                    </div>
+                </div>
+            </li>
+            <!-- PREGUNTA 3 -->
+            <li style="background:white">
+                <div>
+                    <strong class="enunciado">Preguntas de seleccion Múltiple con unica respuesta</strong>
+                    <br><br>
+                    <div id="uno" class="dformu">
+                        <strong style="font-size: 23px">¿Cuales son los tipos de metodos de un formulario?</strong>
+                        <br><br> A.
+
+                        <input id="pregunta3" name="pregunta3" type="radio"> Numericos <br> B.
+                        <input id="pregunta3a" name="pregunta3" type="radio"> Get,Post,Delete,Put <br> C.
+                        <input id="pregunta3b" name="pregunta3" type="radio">Get,Post <br> D.
+                        <input id="pregunta3c" name="pregunta3" type="radio"> Ninguna de las Anteriores
+                    </div>
+                </div>
+            </li>
+            <!-- PREGUNTA 4 -->
+            <li style="background:white">
+                <div>
+                    <strong class="enunciado">Preguntas de seleccion Múltiple con unica respuesta</strong>
+                    <br><br>
+                    <div id="uno" class="dformu">
+                        <strong style="font-size: 23px">¿Cuales son los tipos de datos compatibles con JSON?</strong>
+                        <br><br> A.
+
+                        <input id="pregunta4" name="pregunta4" type="radio"> String <br> B.
+                        <input id="pregunta4a" name="pregunta4" type="radio"> Double <br> C.
+                        <input id="pregunta4b" name="pregunta4" type="radio">Int,Float,Booleans <br> D.
+                        <input id="pregunta4c" name="pregunta4" type="radio"> Todas las Anteriores
+                    </div>
+                </div>
+            </li>
+            <!-- PREGUNTA 5 -->
+            <li style="background:white">
+                <div>
+                    <strong class="enunciado">Preguntas de seleccion Múltiple con unica respuesta</strong>
+                    <br><br>
+                    <div id="uno" class="dformu">
+                        <strong style="font-size: 23px">¿Para que sirve un ID?</strong>
+                        <br><br> A.
+
+                        <input id="pregunta5" name="pregunta5" type="radio"> Para nada <br> B.
+                        <input id="pregunta5a" name="pregunta5" type="radio"> Identificador <br> C.
+                        <input id="pregunta5b" name="pregunta5" type="radio">Es una clase <br> D.
+                        <input id="pregunta5c" name="pregunta5" type="radio"> Todas las Anteriores
+                    </div>
+                </div>
+            </li>
+            <!-- PREGUNTA 6 -->
+            <li style="background:white">
+                <div>
+                    <strong class="enunciado">Preguntas de seleccion Múltiple con unica respuesta</strong>
+                    <br><br>
+                    <div id="uno" class="dformu">
+                        <strong style="font-size: 23px">¿Que es una hoja de estilos?</strong>
+                        <br><br> A.
+
+                        <input id="pregunta6" name="pregunta6" type="radio"> Describe la presentacion del documento <br> B.
+                        <input id="pregunta6a" name="pregunta6" type="radio"> Son estilo<br> C.
+                        <input id="pregunta6b" name="pregunta6" type="radio">Es una clase <br> D.
+                        <input id="pregunta6c" name="pregunta6" type="radio"> Todas las Anteriores
+                    </div>
+                </div>
+            </li>
+            <!-- PREGUNTA 7 -->
+            <li style="background:white">
+                <div>
+                    <strong class="enunciado">Preguntas de seleccion Múltiple con unica respuesta</strong>
+                    <br><br>
+                    <div id="uno" class="dformu">
+                        <strong style="font-size: 23px">¿Para que sirve un archivo .js?</strong>
+                        <br><br> A.
+
+                        <input id="pregunta7" name="pregunta7" type="radio"> Es una función<br> B.
+                        <input id="pregunta7a" name="pregunta7" type="radio"> Son estilo<br> C.
+                        <input id="pregunta7b" name="pregunta7" type="radio">Es una clase <br> D.
+                        <input id="pregunta7c" name="pregunta7" type="radio"> Ninguna de las Anteriores
+                    </div>
+                </div>
+            </li>
+            <!-- PREGUNTA 8 -->
+            <li style="background:white">
+                <div>
+                    <strong class="enunciado">Preguntas de seleccion Múltiple con unica respuesta</strong>
+                    <br><br>
+                    <div id="uno" class="dformu">
+                        <strong style="font-size: 23px">¿Que nos dice !DOCTYPE html?</strong>
+                        <br><br> A.
+
+                        <input id="pregunta8" name="pregunta8" type="radio"> Estamos trabajando con html<br> B.
+                        <input id="pregunta8a" name="pregunta8" type="radio"> Es un requisito<br> C.
+                        <input id="pregunta8b" name="pregunta8" type="radio">Estamos trabajando con html 5 <br> D.
+                        <input id="pregunta8c" name="pregunta8" type="radio"> Ninguna de las Anteriores
+                    </div>
+                </div>
+            </li>
+            <!-- PREGUNTA 9 -->
+            <li style="background:white">
+                <div>
+                    <strong class="enunciado">Preguntas de seleccion Múltiple con unica respuesta</strong>
+                    <br><br>
+                    <div id="uno" class="dformu">
+                        <strong style="font-size: 23px">¿Para que sirve la etiqueta link?</strong>
+                        <br><br> A.
+
+                        <input id="pregunta9" name="pregunta9" type="radio">Para cargar estilos<br> B.
+                        <input id="pregunta9a" name="pregunta9" type="radio"> Es una etiqueta<br> C.
+                        <input id="pregunta9b" name="pregunta9" type="radio">Para cargar archivos .js<br> D.
+                        <input id="pregunta9c" name="pregunta9" type="radio"> Ninguna de las Anteriores
+                    </div>
+                </div>
+            </li>
+            <!-- RESULTADOS -->
+            <li style="background:white">
+                <div>
+                    <strong class="enunciado">CALIFICACIÓN DE TU TEST</strong>
+                    <br><br>
+                    <div id="resultados-calificacion">
+
+                        <strong>Respuestas</strong><br> Preguntas respondidas Correctamente <span id="RC"> </span>
+                        <strong id="RP"></strong>
+                        <table>
+                            <tr>
+                                <th>Pregunta</th>
+                                <th>Respuesta correcta</th>
+                                <th>Tu respuesta</th>
+                            </tr>
+                            <tr>
+                                <td>Pregunta 1</td>
+                                <td>Cadenas de texto</td>
+                                <td> <span id="R1"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Pregunta 2</td>
+                                <td>Decimales</td>
+                                <td> <span id="R2"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Pregunta 3</td>
+                                <td>Get,Post,Delete,Put</td>
+                                <td> <span id="R3"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Pregunta 4</td>
+                                <td>Todas las anteriores</td>
+                                <td> <span id="R4"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Pregunta 5</td>
+                                <td>Identificador</td>
+                                <td> <span id="R5"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Pregunta 6</td>
+                                <td>Describe la presentacion del documento</td>
+                                <td> <span id="R6"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Pregunta 7</td>
+                                <td>Ninguna de las anteriores</td>
+                                <td> <span id="R7"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Pregunta 8</td>
+                                <td>Estamos trabajando con html 5</td>
+                                <td> <span id="R8"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Pregunta 9</td>
+                                <td>Para cargar estilos</td>
+                                <td> <span id="R9"></span></td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+            </li>
+            <script src="js/configuracion.js"></script>
+</body>
+
+</html>

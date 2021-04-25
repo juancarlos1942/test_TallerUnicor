@@ -1,0 +1,104 @@
+.contenedor {
+    overflow: hidden;
+    margin-bottom: 10px;
+    width: 700px;
+    height: 474px;
+    margin-left: 427px;
+}
+
+.contenedor ul div {
+    width: 700px;
+    height: 474px;
+}
+
+.enunciado {
+    margin-top: 35px;
+    /* position: absolute; */
+    margin-left: 58px;
+    width: 100%;
+    font-size: 23px;
+}
+
+.contenedor ul {
+    margin-left: 0px;
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#divNombre {
+    background: #ddd;
+    width: 294px;
+    height: 30px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+#preguntas {
+    background: #f1f1f1;
+    width: 323px;
+    height: 424px;
+    margin-top: 12px;
+    border-radius: 12px;
+}
+
+.titulo {
+    width: 90%;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botones {
+    margin-top: 36px;
+    padding: 5px;
+    display: flex;
+}
+
+.imgB {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+}
+
+.imgS {
+    margin-left: 108px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+}
+
+.botonA {
+    margin-top: -44px;
+    margin-left: 19px;
+}
+
+.botonS {
+    margin-top: -44px;
+}
+
+.boton {
+    width: 90%;
+    background-color: #4CAF50;
+    color: black;
+    padding: 9px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 9px;
+    margin-right: 10px;
+    height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton:hover {
+    background-color: #45a049;
+}

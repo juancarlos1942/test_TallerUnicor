@@ -1,0 +1,145 @@
+#container-preguntas {
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 274px;
+    height: 248px;
+    margin-left: 23px;
+}
+
+#myProgress {
+    width: 95%;
+    background-color: #ddd;
+    margin-top: 13px;
+    margin-left: 7px;
+}
+
+#myBar {
+    width: 0%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+#identificador-Pregunta {
+    margin-left: 93px;
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contestadas {
+    margin-top: 7px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.numero1 {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background: #ddd;
+    margin-top: 12px;
+    padding: 4px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.numero2 {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background: #ddd;
+    margin-top: -35px;
+    padding: 4px;
+    text-align: center;
+    margin-left: 123px;
+}
+
+.numero3 {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background: #ddd;
+    margin-top: -35px;
+    padding: 4px;
+    text-align: center;
+    margin-left: 206px;
+}
+
+.numero4 {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background: #ddd;
+    margin-top: 16px;
+    padding: 4px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.numero5 {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background: #ddd;
+    margin-top: -35px;
+    padding: 4px;
+    text-align: center;
+    margin-left: 123px;
+}
+
+.numero6 {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background: #ddd;
+    margin-top: -35px;
+    padding: 4px;
+    text-align: center;
+    margin-left: 206px;
+}
+
+.numero7 {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background: #ddd;
+    margin-top: 16px;
+    padding: 4px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.numero8 {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background: #ddd;
+    margin-top: -35px;
+    padding: 4px;
+    text-align: center;
+    margin-left: 123px;
+}
+
+.numero9 {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background: #ddd;
+    margin-top: -35px;
+    padding: 4px;
+    text-align: center;
+    margin-left: 206px;
+}
